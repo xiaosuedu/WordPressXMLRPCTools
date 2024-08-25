@@ -9,6 +9,7 @@ import json
 import markdown
 import re
 import urllib.parse
+from urllib.parse import quote
 
 config_file_txt = ""
 
