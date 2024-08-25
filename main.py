@@ -197,7 +197,8 @@ def post_link_id_list_2_link_id_dic(post_link_id_list):
         link_id_dic[post["link"]] = post["id"]
     return link_id_dic
 
-
+def href_info(link):
+    return "<br/><br/><br/>\n\n\n\n## 本文永久更新地址: \n[" + link + "](" + link + ")"
 
 # 在README.md中插入信息文章索引信息，更容易获取google的收录
 def insert_index_info_in_readme():
